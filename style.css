@@ -22,3 +22,40 @@ ul {
     padding: 0;
     gap: 16px;
 }
+
+.section-one {
+    background-color: #1f2937;
+    padding: 64px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    width: 300px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+p.hero-text {
+    color: #f9faf8;
+}
+
+img {
+    max-width: 500px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 8px;
+    border: none;
+    width: 100px;
+}
