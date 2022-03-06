@@ -45,7 +45,7 @@ p.hero-text {
     color: #f9faf8;
 }
 
-img {
+.hero-img {
     max-width: 500px;
     max-height: 250px;
     width: auto;
@@ -58,4 +58,40 @@ button {
     padding: 8px;
     border: none;
     width: 100px;
+}
+
+.section-two {
+    padding: 48px 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.info-text {
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.box-container {
+    display: flex;
+    flex-direction: column;
+}
+  
+.box {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 8px;
+}
+  
+.box-subtext {
+    max-width: 150px;
+    text-align: center;
 }
