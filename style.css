@@ -1,0 +1,24 @@
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+    padding: 0 64px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    color: #f9faf8;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
